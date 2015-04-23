@@ -37,13 +37,13 @@
       </div>
     </nav>
 
-    <div class="container">
+    <dir class="container">
 		<div class="row text-center">
 			<img src="public/bl.gif" />
 		</div>
-      <form action=results.html method="GET">
+      <form action="/sendquery" method="post">
         <div class="col-md-8 col-md-offset-2 form-group">
-        	<input name="query" type="text" class="form-control">
+          <input type="text" id="query" name="query" placeholder="Enter a textbook title!" />
         </div>
       	<button type="submit" class="btn btn-default col-md-offset-5">Search For Books!</button>
       </form>
